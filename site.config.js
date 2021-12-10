@@ -1,6 +1,6 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: 'b62f8c981c1646aaabcba67d5e505b8c',
+  rootNotionPageId: '55da664576794e0c8f2392a3c43a7e75',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -8,11 +8,11 @@ module.exports = {
 
   // basic site info (required)
   name: 'Derekyudps Blog',
-  domain: 'https://www.notion.so/derekyudp/Welcome-to-Derekyudp-s-Dashboard-b62f8c981c1646aaabcba67d5e505b8c',
+  domain: 'https://www.notion.so/derekyudp/About-Archi-Torture-55da664576794e0c8f2392a3c43a7e75',
   author: 'Derekyudp',
 
   // open graph metadata (optional)
-  description: 'Welcome to Derekyudps Dashboard',
+  description: 'Welcome to Archi-Torture',
   socialImageTitle: '',
   socialImageSubtitle: '',
 
