@@ -12,9 +12,9 @@ module.exports = {
   author: 'Derekyudp',
 
   // open graph metadata (optional)
-  description: 'Example site description',
-  socialImageTitle: 'Transitive Bullshit',
-  socialImageSubtitle: 'Hello World! 👋',
+  description: 'Welcome to Derekyudps Dashboard',
+  socialImageTitle: '',
+  socialImageSubtitle: '',
 
   // social usernames (optional)
   twitter: '',
