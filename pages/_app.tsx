@@ -25,7 +25,8 @@ import 'styles/notion.css'
 
 // global style overrides for prism theme (optional)
 import 'styles/prism-theme.css'
-
+import { Analytics } from '@vercel/analytics/react';
+import type { AppProps } from 'next/app'
 // here we're bringing in any languages we want to support for
 // syntax highlighting via Notion's Code block
 import 'prismjs'
@@ -63,5 +64,10 @@ export default function App({ Component, pageProps }) {
     }
   }, [])
 
-  return <Component {...pageProps} />
+  return (
+  <>
+  <Component {...pageProps} />
+  <Analytics />
+  </>
+  )
 }
